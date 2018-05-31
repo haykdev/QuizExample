@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="News" representedClassName="News" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="sectionName"/>
+            </userInfo>
+        </attribute>
+        <attribute name="headline" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="fields.headline"/>
+            </userInfo>
+        </attribute>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="fields.thumbnail"/>
+            </userInfo>
+        </attribute>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="itemId" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+            </userInfo>
+        </attribute>
+        <attribute name="publicationDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="dateFormat" value="yyyy-MM-dd'T'HH:mm:ssZ"/>
+                <entry key="mappedKeyName" value="webPublicationDate"/>
+            </userInfo>
+        </attribute>
+        <userInfo>
+            <entry key="relatedByAttribute" value="itemId"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="News" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
